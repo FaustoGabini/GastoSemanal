@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #396afc;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2948ff, #396afc);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2948ff, #396afc);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.padre {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 80%;
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 12px;
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contenido-primario {
+    width: 500px;
+
+    margin: 20px 0;
+}
+
+.contenido-secundario {
+    width: 50%;
+    margin: 20px 0;
+
+}
+
+input {
+
+    border: none;
+    border-bottom: 2px solid #396afc;
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin: 30px;
+}
+
+.form-group {
+    margin: 20px 40px;
+}
+
+.btnAgregar {
+    width: 75px;
+    height: 35px;
+    margin-left: 40px;
+    border-radius: 4px;
+    border-style: none;
+    background-color: #0082c8;
+    color: #FFF;
+
+}
+
+.btnAgregar:hover {
+    background-color: #2948ff;
+}
+
+.alerta-presupuesto {
+    background-color: rgb(204, 229, 255);
+    color: rgb(0, 64, 165);
+    height: 50px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.restante {
+    background-color: rgb(212, 237, 218);
+    color: rgb(21, 87, 89);
+    height: 50px;
+    border-radius: 6px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.restante-bien {
+    background-color: rgb(212, 237, 218);
+    color: rgb(21, 87, 89);
+
+}
+
+.restante-precaucion {
+    background-color: rgb(255, 243, 205);
+    color: rgb(133, 100, 4);
+
+}
+
+.restante-peligro {
+    background-color: rgb(248, 215, 218);
+    color: rgb(114, 28, 36);
+    height: 50px;
+
+}
+
+
+
+ul {
+    list-style: none;
+
+}
+
+ul li {
+    border: 1px solid #396afc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+ul li span {
+    float: right;
+
+}
+
+
+.alerta {
+    text-align: center;
+
+}
+
+.error {
+    color: red;
+}
+
+.correcto {
+    color: green;
+}

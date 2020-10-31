@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gasto semanal</title>
+</head>
+
+<body>
+
+    <div class="padre">
+        <div class="container">
+            <div class="contenido-primario">
+                <h2>Añade tus gastos</h2>
+                <form action="#" id='formulario'>
+                    <div class="form-group">
+                        <label for="gasto">Gasto:</label><br>
+                        <input type="text" class="form-control" id="gasto" placeholder="Nombre Gasto">
+                    </div>
+                    <div class="form-group">
+                        <label for="cantidad">Cantidad:</label><br>
+                        <input type="text" class="form-control" id="cantidad" placeholder="Cantidad en $">
+                    </div>
+
+                    <button type="submit" class="btnAgregar">Agregar</button>
+                </form>
+            </div>
+            <div class="contenido-secundario">
+                <h2>Listado</h2>
+                <div id="id">
+                    <ul class="listado-group" id="listado">
+
+                    </ul>
+                </div>
+                <div id="presupuesto" class="presupuesto">
+                    <div class="alerta-presupuesto">
+                        <p>Presupuesto: $ <span id="total"></span> </p>
+                    </div>
+                    <div class="restante">
+                        <p>Restante: $ <span id="restante"></span></p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
